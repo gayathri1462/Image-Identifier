@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Result</title>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    /*just bg and body style*/
+body{
+      background-color: #808080;
+      background-image: linear-gradient(315deg, #808080 0%, #fc575e 85%);
+      margin:40px;
+    }
+.container{
+padding:20px;
+border-radius:5px;
+text-align:center;
+}
+
+.btn-container{
+background:#fff;
+box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+border-radius:5px;
+padding:20px;
+margin:20px;
+}
+
+.head{
+  font-size: 60px;
+  font-weight: bolder;
+}
+</style>
+<!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+      <h1>Is this what you expected?</h1> 
+		</div>
+	</div>
+       <div class="row">
+			<div class="col-md-12">
+				<div class="btn-container">
+       
+       <h1>Predictions</h1>
+  
+     <table class="table">
+  <thead class="thead-dark">
+   
+    <tr>
+      <th scope="col"><h4>Name</h4></th>
+      <th scope="col"><h4>Accuracy</h4></th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+    {% for r,p in res %}
+     <td><h4>{{r}}</h4></td>
+     <td><h4>{{p}}%</h4></td>
+     <br/>
+     </tr>
+     {% endfor %}
+  </tbody>
+</table>
+     </div>
+</div>
+ </div>
+  </div>
+  </body>
+
+</html>
