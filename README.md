@@ -5,7 +5,7 @@
 Anaconda Python (to get ML Libraries)
 Keras (for Deep Learning)
 Pip install keras (For Back-end)
-Pip install tenserflow
+Pip install tensorflow
 Pip install Django (For Front-end)
 
 ### 2.Django Creation
