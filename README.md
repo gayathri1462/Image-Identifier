@@ -1,6 +1,8 @@
 # Image-Identifier
 ## A Web application for Image Identification using pretrained Keras model – Resnet50
 
+#### Video link to see the working: https://youtu.be/2XaEj8BkqKc
+
 ### 1.Project Requirements or Dependencies
 Anaconda Python (to get ML Libraries)
 Keras (for Deep Learning)
