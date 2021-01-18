@@ -23,9 +23,9 @@ templates folder to store html files
 
 ### 3.Backend creation using pretrained keras model – Resnet50
 
-Use this pretrained model and connect it with our Django application.
-Upload image in our Django application.
-Use this for prediction for model and show the output
+* Use this pretrained model and connect it with our Django application.
+* Upload image in our Django application.
+* Use this for prediction for model and show the output
 
 ### 4.Adding form to Django app and uploading image
  
