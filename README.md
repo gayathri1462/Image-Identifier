@@ -1,4 +1,4 @@
-# Image-Identifier
+# Image-Identifier-Web-App
 ## A Web application for Image Identification using pretrained Keras model – Resnet50
 
 #### Video link to see the working: https://youtu.be/2XaEj8BkqKc
