@@ -4,11 +4,11 @@
 #### Video link to see the working: https://youtu.be/2XaEj8BkqKc
 
 ### 1.Project Requirements or Dependencies
-Anaconda Python (to get ML Libraries)
-Keras (for Deep Learning)
-Pip install keras (For Back-end)
-Pip install tensorflow
-Pip install Django (For Front-end)
+* Anaconda Python (to get ML Libraries)
+* Keras (for Deep Learning)
+* Pip install keras (For Back-end)
+* Pip install tensorflow
+* Pip install Django (For Front-end)
 
 ### 2.Django Creation
 django-admin.exe startproject myWebApp
