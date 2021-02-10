@@ -1,6 +1,9 @@
 # Image-Identifier-Web-App
 ## A Web application for Image Identification using pretrained Keras model – Resnet50
 
+
+![alt text](https://github.com/gayathri1462/Image-Identifier-Web-App/blob/main/output.jpeg?raw=true)
+
 #### Video link to see the working: https://youtu.be/2XaEj8BkqKc
 
 ### 1.Project Requirements or Dependencies
